@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,label,textarea,p,blockquote,th,td{margin:0;padding:0;}
+body{color:#000;background:#fff;font:12px/1.5em arial,verdana,'宋体',sans-serif;line-height:180%;margin:0;padding:0;white-space:normal;word-break:break-all;}
+.clear{clear:both;}
+img{border:none;}
+ol,ul{list-style-type:none;}
+.l{float:left;}
+.r{float:right;}
+
+.wrap {margin:0 auto;width:960px;}
