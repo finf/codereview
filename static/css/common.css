@@ -1,4 +1,14 @@
 @CHARSET "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 1em;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,label,textarea,p,blockquote,th,td{margin:0;padding:0;}
 body{color:#000;background:#fff;font:12px/1.5em arial,verdana,'宋体',sans-serif;line-height:180%;margin:0;padding:0;white-space:normal;word-break:break-all;}
 .clear{clear:both;}
@@ -8,3 +18,19 @@ ol,ul{list-style-type:none;}
 .r{float:right;}
 
 .wrap {margin:0 auto;width:960px;}
+.top_btn {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 3px 15px;
+}
+.top_btn:hover {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.25);
+}
+.top_btn a {
+	
+}

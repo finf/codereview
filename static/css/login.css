@@ -104,3 +104,16 @@
    background-image: -ms-linear-gradient(top, #6aa436 0%, #8dc059 100%);
    color: #fff;
    }
+.top {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+.error {
+    background-color: #F5DCDC;
+    border: 1px solid #D5A9A9;
+    border-radius: 15px 15px 15px 15px;
+    color: #C94F4F;
+    margin-bottom: 10px;
+    padding: 5px 12px;
+}

@@ -103,4 +103,15 @@ Class Account_model extends CI_Model
 			return true;
 		}
 	}
+	
+	/**
+	 * 注册帐号
+	 * @param array $account
+	 */
+	function save($account)
+	{
+		$account['ctime'] = date('Y-m-d H:i:s');
+		$this->db->insert('account', $account);
+		return $this->db->insert_id();
+	}
 }
