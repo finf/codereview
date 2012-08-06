@@ -21,7 +21,8 @@ class Account extends CI_Controller {
 			redirect('');
 		}
 		
-		$data['redirect']	= $this->session->flashdata('redirect');
+		$data['redirect']	= $this->account_session->flashdata('redirect');
+		
 		$submitted 		= $this->input->post('submitted');
 		if ($submitted) {
 			$email		= $this->input->post('email');
@@ -32,7 +33,7 @@ class Account extends CI_Controller {
 			if ($login) {
 				redirect($redirect);
 			} else {
-				$this->session->set_flashdata('redirect', $redirect);
+				$this->account_session->set_flashdata('redirect', $redirect);
 				redirect('account/login');
 			}
 		}

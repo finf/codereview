@@ -38,6 +38,9 @@
 |
 */
 
+$route['u/(:num)'] = "codes/user/$1";
+$route['codes/(:num)'] = "codes/view/$1";
+$route['codes/(:num)/(:any)'] = "codes/view/$1/$2";
 $route['default_controller'] = "desktop";
 $route['404_override'] = '';
 
